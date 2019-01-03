@@ -3,6 +3,19 @@
 
 ---
 
+<h2 id="problème-1">Problème 1</h2>
+<blockquote>
+<p>Faut-il corriger ces lignes en : .section:nth-child(1)<br>
+{background-image: url();}</p>
+</blockquote>
+<p>Ok pour nous.</p>
+<h2 id="problème-2">Problème 2</h2>
+<blockquote>
+<p>Si tu mets full screen sur une vidéo puis que tu enlève le full screen<br>
+puis que tu vas le faire sur une autre. Parfois ça te remet la<br>
+première en full screen au lieu de mettre celle sur laquelle tu as<br>
+cliqué.</p>
+</blockquote>
 <h2 id="html">HTML</h2>
 <p><strong>Remplacer dans section-2.php (Ligne 15)</strong></p>
 <pre><code>&lt;span class="fullscreenlink" id="fullscreen-2"&gt;&lt;img src="img/icon/full-screen.svg"&gt;Full Screen&lt;/span&gt;
@@ -123,4 +136,9 @@ fullscreen4.addEventListener('click',function(){
     }
 });
 </code></pre>
+<h2 id="problème-3">Problème 3</h2>
+<blockquote>
+<p>Dans le code de section-2.php, il y a deux éléments video, l’un pour<br>
+mobile et l’autre pour desktop. Au niveau de l’affichage pas de problème, mais par contre l’utilisateur charge la vidéo en double même s’ils l’affichent bien qu’une fois.</p>
+</blockquote>
 
